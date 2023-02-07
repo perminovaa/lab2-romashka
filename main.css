@@ -1,0 +1,106 @@
+
+html {
+  font-size: 16px;
+  font-family: 'Nunito', sans-serif;
+}
+
+body {
+  text-align: center;
+  color: #0f2d0a;
+  background: #f4f4f4 url(); 
+} 
+
+h2 {
+  font-size: 25px;
+  background-color: #fbfae5;
+  padding: 30px 30px;
+}
+
+p {
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: #093107;
+}
+object {
+  width: 50%;
+  text-align: center;
+  justify-content: center;
+}
+
+.nav {
+  list-style: none;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: #093107;
+  margin: auto;
+
+}
+
+.nav a {
+  text-decoration: none;
+  float: left;
+  padding: 20px 50px;
+  display: block;
+  color: #fbfae5;
+}
+
+.nav div{
+  text-decoration: none;
+  float: left;
+  padding: 20px 50px;
+  display: block;
+  color: #fbfae5;
+}
+.nav a:hover {
+  color: #000;
+  background: #f8fbc5;
+}
+
+ul li {
+  display: inline-block;
+  border-left: 1px solid #15421b
+}
+
+.menuTable {
+  margin: auto;
+  text-align: center;
+  font-size: 100%;
+  background: #ffffff;
+  width: 1000px;
+}
+
+.menuTable thead {
+  line-height: 1;
+  background: #fbfae5;
+}
+
+.menuTable td {
+  padding: 12px 10px 10px;
+  color: #424345;
+  font-size: 18px;
+}
+
+.menuTable td.name {
+  color: #1e1d1d;
+  width: 600px;
+}
+
+.menuTable td.weight {
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  color: #4a4a4a;
+  width: 200px;
+} 
+
+.menuTable td.price {
+  text-align: center;
+  font-size: 20px;
+  color: #4a4a4a;  
+  width: 200px;
+}
